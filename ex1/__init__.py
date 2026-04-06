@@ -5,5 +5,5 @@ __all__ = [
     "HealCapability",
     "HealingCreatureFactory",
     "TransformCapability",
-    "TransformCreatureFactory",
+    "TransformCreatureFactory"
 ]

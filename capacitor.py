@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+
 from ex0 import CreatureFactory
 from ex1 import (
     HealCapability,
     HealingCreatureFactory,
     TransformCapability,
-    TransformCreatureFactory,
+    TransformCreatureFactory
 )
 
 
