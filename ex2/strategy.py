@@ -1,7 +1,10 @@
 from abc import ABC, abstractmethod
 from ex0 import Creature
 from ex1 import HealCapability, TransformCapability
-from .exception import InvalidStrategyError
+
+
+class InvalidStrategyError(Exception):
+    """Raised when a BattleStrategy is used on an incompatible Creature."""
 
 
 class BattleStrategy(ABC):

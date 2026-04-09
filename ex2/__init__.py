@@ -1,15 +1,15 @@
-from .exception import InvalidStrategyError
 from .strategy import (
-    AggressiveStrategy,
     BattleStrategy,
+    NormalStrategy,
+    AggressiveStrategy,
     DefensiveStrategy,
-    NormalStrategy
+    InvalidStrategyError
 )
 
 __all__ = [
-    "AggressiveStrategy",
     "BattleStrategy",
+    "NormalStrategy",
+    "AggressiveStrategy",
     "DefensiveStrategy",
-    "InvalidStrategyError",
-    "NormalStrategy"
+    "InvalidStrategyError"
 ]
